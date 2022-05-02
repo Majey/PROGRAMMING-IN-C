@@ -3,11 +3,13 @@
 
 int main()
 {
-    int i;
-    for (i=0; i<10; i++)
+    int input;
+ 
+    do 
     {
+        printf("Please enter a number greater than 5:\n");
+        scanf("%i", &input);
+        printf("%i is less than 5\n", input);
+    } while(input < 5);
         
-        do (printf("i is equal to 5"));
-        
-    }
 }
